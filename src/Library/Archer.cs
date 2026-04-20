@@ -1,0 +1,4 @@
+namespace Ucu.Poo.RolePlayGame
+{
+    
+}
