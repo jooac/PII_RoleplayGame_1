@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    public class wizard
+    public class Wizard
     {
         public string Name{get;}
         public SpellsBook SpellsBook {get;}
