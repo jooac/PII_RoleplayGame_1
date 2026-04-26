@@ -22,6 +22,7 @@ namespace Library
 
             SpellsBook = new SpellsBook();
             Staff = new Staff();
+            
         }
 
         public void ReceiveAttack(int power)
