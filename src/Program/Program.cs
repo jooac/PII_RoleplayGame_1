@@ -34,13 +34,14 @@ namespace Ucu.Poo.RolePlayGame
             Console.WriteLine($"El arquero {archer1.Name} tiene {archer1.Health} puntos de vida.");
             Console.WriteLine($"El enano {dwarf1.Name} tiene {dwarf1.Health} puntos de vida."); 
 
-            wizard1.ReceiveAttack(30);
+            //wizard1.ReceiveAttack(30);
+            wizard1.ReceiveAttack(elve1.AttackValue);
             Console.WriteLine($"El mago {wizard1.Name} tiene {wizard1.Health} puntos de vida después de recibir un ataque de 30 puntos.");  
             Console.WriteLine($"El mago {wizard1.Name} tiene un valor de ataque de {wizard1.AttackValue}.");
             Console.WriteLine($"El mago {wizard1.Name} tiene un valor de defensa de {wizard1.DefenseValue}.");
-            wizard1.ReceiveAttack(50);
-            Console.WriteLine($"El mago {wizard1.Name} tiene {wizard1.Health} puntos de vida después de recibir un ataque de 50 puntos.");
             wizard1.Cure();
+            wizard1.ReceiveAttack(elve1.AttackValue);
+            Console.WriteLine($"El mago {wizard1.Name} tiene {wizard1.Health} puntos de vida después de recibir un ataque de 50 puntos.");
             Console.WriteLine($"El mago {wizard1.Name} tiene {wizard1.Health} puntos de vida después de curarse.");
         }
     }
