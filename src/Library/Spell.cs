@@ -5,13 +5,15 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    public class Axe
+    public class Spell
     {
         public int AttackValue {get;}
+        public int DefenseValue {get;}
 
-        public Axe(int attackValue)
+        public Spell(int attackValue, int defenseValue)
         {
             AttackValue = attackValue;
+            DefenseValue = defenseValue;
         }
     }
 }

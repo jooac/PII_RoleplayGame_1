@@ -5,6 +5,8 @@
 //--------------------------------------------------------------------------------
 
 using System;
+using System.Security.Cryptography.X509Certificates;
+using Library;
 
 namespace Ucu.Poo.RolePlayGame
 {
@@ -13,12 +15,14 @@ namespace Ucu.Poo.RolePlayGame
     /// </summary>
     public static class Program
     {
-        /// <summary>
-        /// Punto de entrada al programa principal.
-        /// </summary>
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("¡Hola mundo!");
+            Wizard wizard1 = new Wizard("El mago Nacho");
+            Console.WriteLine(wizard1.Name, wizard1.Health, wizard1.AttackValue, wizard1.DefenseValue );
+            Shield shield1 = new Shield(10);
+            
+
         }
     }
+
 }
