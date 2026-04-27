@@ -19,6 +19,7 @@ namespace Ucu.Poo.RolePlayGame
         {
             Wizard wizard1 = new Wizard("El mago Nacho");
             Console.WriteLine(wizard1.Name, wizard1.Health, wizard1.AttackValue, wizard1.DefenseValue );
+            Shield shield1 = new Shield(10);
             
 
         }
