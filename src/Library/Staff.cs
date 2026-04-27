@@ -9,5 +9,11 @@ namespace Library
     {
         public int AttackValue {get;}
         public int DefenseValue {get;}
+    
+    public Staff(int attackValue, int defenseValue)
+    {
+        AttackValue = attackValue;
+        DefenseValue = defenseValue;
+    }
     }
 }

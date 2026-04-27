@@ -1,6 +1,6 @@
 using System;
 
-namespace Ucu.Poo.RolePlayGame
+namespace Library
 {
     public class Shield
     {
