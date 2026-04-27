@@ -7,7 +7,7 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
 using Library;
-
+    
 namespace Ucu.Poo.RolePlayGame
 {
     /// <summary>

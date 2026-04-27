@@ -39,7 +39,7 @@ namespace Library
         {
             get{return this.dagger.Damage;}
         }
-        public void ReceieveAttack (int power)
+        public void ReceiveAttack (int power)
         {
             int remaininDamage = power - this.DefenseValue;
             if (remaininDamage <= 0)
