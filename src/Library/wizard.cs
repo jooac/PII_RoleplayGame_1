@@ -21,7 +21,7 @@ namespace Library
             Health = 100;
 
             SpellsBook = new SpellsBook();
-            Staff = new Staff();
+            Staff = new Staff(10,5);
             
         }
 

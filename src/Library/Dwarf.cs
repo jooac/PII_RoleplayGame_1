@@ -1,6 +1,6 @@
 using System;
 
-namespace Ucu.Poo.RolePlayGame
+namespace Library
 {
     public class Dwarf
     {
@@ -57,7 +57,7 @@ namespace Ucu.Poo.RolePlayGame
 
         private void UpdateStats()
         {
-            AttackValue = axe.Attack;
+            AttackValue = axe.AttackValue;
             DefenseValue = shield.Defense + helmet.Defense;
         }
 

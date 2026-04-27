@@ -1,7 +1,7 @@
 using System;
 using System.Dynamic;
 
-namespace Ucu.Poo.RolePlayGame
+namespace Library
 {
     public class Bow
     {

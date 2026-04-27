@@ -1,4 +1,4 @@
-namespace Ucu.Poo.RolePlayGame
+namespace Library
 {
     public class Dagger
     {
