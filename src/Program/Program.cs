@@ -18,7 +18,7 @@ namespace Ucu.Poo.RolePlayGame
         public static void Main()
         {
             Wizard wizard1 = new Wizard("Nacho");
-            Elve elve1 = new Elve("Legolas", 100);
+            Elve elve1 = new Elve("Legolas");
             Archer archer1 = new Archer("Leonardo");
             Dwarf dwarf1 = new Dwarf("Joaco");
             Shield shield1 = new Shield(10);
